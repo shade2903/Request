@@ -1,7 +1,8 @@
-package com.haiduk;
+package com.haiduk.ConvertorService;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.haiduk.WebService.Article;
 
 public class JsonParser {
     public static Article fromJson(String articleJson){

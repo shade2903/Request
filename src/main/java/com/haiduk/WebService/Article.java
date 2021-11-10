@@ -1,4 +1,4 @@
-package com.haiduk;
+package com.haiduk.WebService;
 
 public class Article {
     private int userId;
@@ -42,6 +42,6 @@ public class Article {
     }
 
     public String toString() {
-        return String.format("Article [%s] : User [%s] Title [%s] Message [%s]", id, userId, title, body);
+        return String.format("Article [%s] : User [%s] Title [\"%s\"] Message [\"%s\"]", id, userId, title, body);
     }
 }

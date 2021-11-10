@@ -1,7 +1,6 @@
 package com.haiduk.WebService;
 
-import com.haiduk.Article;
-import com.haiduk.JsonParser;
+import com.haiduk.ConvertorService.JsonParser;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

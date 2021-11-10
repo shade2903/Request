@@ -1,7 +1,6 @@
 package com.haiduk.WebService;
 
-import com.haiduk.Article;
-import com.haiduk.JsonParser;
+import com.haiduk.ConvertorService.JsonParser;
 import org.apache.http.HttpEntity;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -48,7 +47,7 @@ public class MyHttpClient {
         final List<NameValuePair> params = new ArrayList<>();
         params.add(new BasicNameValuePair("id", String.format("%s",id)));
         params.add(new BasicNameValuePair("title", "some title"));
-        params.add(new BasicNameValuePair("body", "some bar"));
+        params.add(new BasicNameValuePair("body", "some message"));
         params.add(new BasicNameValuePair("userId", "1"));
         ;
         try {
