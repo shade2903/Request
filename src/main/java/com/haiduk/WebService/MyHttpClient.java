@@ -27,11 +27,11 @@ public class MyHttpClient {
             CloseableHttpResponse response1 = httpClient.execute(httpGet);
             final HttpEntity entity1 = response1.getEntity();
 
-//            JsonParser jsonParser1 = new JsonParser();
-//
-//            Article article1 = jsonParser1.fromJson(EntityUtils.toString(entity1));
-//            System.out.println(article1);
-            System.out.println(EntityUtils.toString(entity1));
+            JsonParser jsonParser1 = new JsonParser();
+
+            Article article1 = jsonParser1.fromJson(EntityUtils.toString(entity1));
+            System.out.println(article1);
+//            System.out.println(EntityUtils.toString(entity1));
             httpClient.close();
 
         } catch (

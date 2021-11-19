@@ -24,8 +24,10 @@ public class MainApp {
         }
 
 
+
 //        MyURLConnection myURLConnection = new MyURLConnection();
 //        myURLConnection.doGet(1);
+//        myURLConnection.doPost(2);
     }
 
 }
